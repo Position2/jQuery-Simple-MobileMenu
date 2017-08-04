@@ -43,7 +43,7 @@ $(".mobile_menu").slideMobileMenu({
 		//If opened "open" returns true,otherwise false
 	}
 })
-
+```
 ## Getting started
 
 ### Include Stylesheet
