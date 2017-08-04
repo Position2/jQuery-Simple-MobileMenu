@@ -90,6 +90,6 @@ $(document).ready(function() {
 		"onMenuToggle" : function(menu,open) {
 			console.log(open)
 		}
-	});
+	}); 
 })
 ```
