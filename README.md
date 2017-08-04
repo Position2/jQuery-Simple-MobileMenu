@@ -30,7 +30,7 @@ _Mobile menu wrapper element class._(Default : sm_menu_outer)
 _Executes immediately after the mobilemenu is fully loaded.Function argument is the current mobile menu element_
 ```js
 $(".mobile_menu").slideMobileMenu({
-	"onMenuLoad" : function(menu) { 
+  "onMenuLoad" : function(menu) { 
 		//onload callback
 	}
 })
