@@ -11,7 +11,7 @@ Here the steps to configure...
 **Step 3 :** Fire the jQuery inlinePopup Plugin 
 ```js
 $(document).ready(function(){
-	$(".mobile_menu").slideMobileMenu()
+  $(".mobile_menu").slideMobileMenu()
 });
 ```
 
