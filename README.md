@@ -84,11 +84,11 @@ $(".mobile_menu").slideMobileMenu({
 $(document).ready(function() {
   $(".mobile_menu").slideMobileMenu({
     //Hamburger Id
-    "hamburgerId" 	: "sm_menu_ham", 
+    "hamburgerId" : "sm_menu_ham", 
     //Menu Wrapper Class
-    "wrapperClass"	: "sm_menu_outer", 
+    "wrapperClass" : "sm_menu_outer", 
     //Submenu Class
-    "submenuClass"  : "submenu",
+    "submenuClass" : "submenu",
     // Callback - Menu loaded 
     "onMenuLoad" : function(menu) {
        console.log("menu loaded")
