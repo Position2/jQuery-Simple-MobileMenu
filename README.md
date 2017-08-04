@@ -24,7 +24,7 @@ _Mobile menu Hamburger Id._(Default : sm_menu_ham)
 *  **wrapperClass**<br/>
 _Mobile menu wrapper element class._(Default : sm_menu_outer)
 
-##Callbacks
+## Callbacks
 
 *  **onMenuLoad**<br/>
 _Executes immediately after the mobilemenu is fully loaded.Function argument is the current mobile menu element_
