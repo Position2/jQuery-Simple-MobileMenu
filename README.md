@@ -31,7 +31,7 @@ _Executes immediately after the mobilemenu is fully loaded.Function argument is 
 ```js
 $(".mobile_menu").slideMobileMenu({
 	"onMenuLoad" : function(menu) { 
-		//onload callback
+		//onload callback 
 	}
 })
 ```
