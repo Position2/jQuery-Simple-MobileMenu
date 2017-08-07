@@ -1,0 +1,48 @@
+{
+    "name": "jquery-simple-mobilemenu",
+    "version": "1.0.1",
+    "title": "jQuery Simple Mobile Menu",
+    "description": "A Simple jQuery Plugin for Mobile Menu",
+    "keywords": [
+        "jquery",
+        "jquery-plugin",
+        "ecosystem:jquery",
+        "plugin",
+        "simple mobile menu",
+        "mobile menu",
+        "simple menu",
+        "menu",
+        "jquery-simple-mobilemenu",
+        "jquery-simple-mobile-menu",
+        "mobile",
+        "mmenu",
+        "responsive",
+        "navigation",
+        "submenu"
+    ],
+    "author": {
+        "name": "Position2",
+        "url": "http://www.position2.com"
+    },
+    "maintainers": [
+        {
+            "name": "Position2",
+            "email": "p2webadmin@position2.com",
+            "url": "http://www.position2.com"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Position2/jQuery-Simple-MobileMenu/issues",
+        "email": "p2webadmin@position2.com"
+    },
+    "homepage": "https://position2.github.io/jQuery-Simple-MobileMenu/demo/",
+    "main": "dist/jquery-simple-mobilemenu.js",
+    "dependencies": {
+        "jquery": ">=1.8"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Position2/jQuery-Simple-MobileMenu.git"
+    }
+}
