@@ -45,7 +45,7 @@ https://github.com/Position2/jQuery-Simple-MobileMenu
 				},
 				toggleMobileMenu = function(e) {
 					$("#"+smMenu.settings.hamburgerId).toggleClass("open");
-					$("."+smMenu.settings.wrapperClass).toggleClass("active");
+					$("."+smMenu.settings.wrapperClass).toggleClass("active").find("li.active").removeClass("active");
 					$("body").toggleClass("mmactive");
 					// Callback - Menu Toggle
 					if(typeof smMenu.settings.onMenuToggle == 'function') {
