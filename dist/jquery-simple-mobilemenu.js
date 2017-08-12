@@ -1,6 +1,8 @@
-/*
-JQuery Simple MobileMenu
-https://github.com/Position2/jQuery-Simple-MobileMenu
+/**
+* JQuery Simple MobileMenu
+* Copyright (c) 2017 Position2 Inc.
+* Licensed under MIT (http://opensource.org/licenses/MIT)
+* https://github.com/Position2/jQuery-Simple-MobileMenu
 */
 (function($) {
 	var defaults = {	
