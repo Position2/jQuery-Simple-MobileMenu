@@ -4,11 +4,11 @@ A Simple jQuery Plugin for Mobile Menu
 
 Here the steps to configure...
 
-**Step 1 :** Download and link to the Jquery plugin
+**Step 1 \:** Download and link to the Jquery plugin
 
-**Step 2 :** Download and link to the Jquery simpleMobileMenu plugin
+**Step 2 \:** Download and link to the Jquery simpleMobileMenu plugin
 
-**Step 3 :** Fire the jQuery inlinePopup Plugin 
+**Step 3 \:** Fire the jQuery inlinePopup Plugin 
 ```js
 $(document).ready(function(){
   $(".mobile_menu").slideMobileMenu()
