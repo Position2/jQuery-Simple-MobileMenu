@@ -12,7 +12,7 @@
                     "onMenuLoad"    : function() { return true; }, //Calls when menu loaded
                     "onMenuToggle"  : function() { return true; } //Calls when menu open/close
                   };
-  $.fn.slideMobileMenu = function(options) {
+  $.fn.simpleMobileMenu = function(options) {
     if (this.length === 0) { return this; }
     var smMenu = {}, ds = $(this);
     var init = function() {

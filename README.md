@@ -11,7 +11,7 @@ Here the steps to configure...
 **Step 3 \:** Fire the jQuery inlinePopup Plugin 
 ```js
 $(document).ready(function(){
-  $(".mobile_menu").slideMobileMenu()
+  $(".mobile_menu").simpleMobileMenu()
 });
 ```
 
@@ -29,7 +29,7 @@ _Mobile menu wrapper element class._(Default : sm_menu_outer)
 *  **onMenuLoad**<br/>
 _Executes immediately after the mobilemenu is fully loaded.Function argument is the current mobile menu element_
 ```js
-$(".mobile_menu").slideMobileMenu({
+$(".mobile_menu").simpleMobileMenu({
   "onMenuLoad" : function(menu) { 
     //onload callback
   }
@@ -38,7 +38,7 @@ $(".mobile_menu").slideMobileMenu({
 *  **onMenuToggle**<br/>
 _Executes on mobile menu toggle(open/close).Function argument is the current mobile menu state._
 ```js
-$(".mobile_menu").slideMobileMenu({
+$(".mobile_menu").simpleMobileMenu({
   "onMenuToggle" : function(menu,open) { 
     //If opened "open" returns true,otherwise false
   }
@@ -82,7 +82,7 @@ $(".mobile_menu").slideMobileMenu({
 ### Setting up JS
 ```js
 $(document).ready(function() {
-  $(".mobile_menu").slideMobileMenu({
+  $(".mobile_menu").simpleMobileMenu({
     //Hamburger Id
     "hamburgerId" : "sm_menu_ham", 
     //Menu Wrapper Class
