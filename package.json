@@ -38,7 +38,7 @@
         "url": "https://github.com/Position2/jQuery-Simple-MobileMenu/issues",
         "email": "p2webadmin@position2.com"
     },
-    "homepage": "https://position2.github.io/jQuery-Simple-MobileMenu/demo/",
+    "homepage": "https://position2.github.io/jQuery-Simple-MobileMenu/demo/slide.html",
     "main": "dist/jquery-simple-mobilemenu.js",
     "dependencies": {
         "jquery": ">=1.8"
