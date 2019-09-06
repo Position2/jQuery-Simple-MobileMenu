@@ -138,8 +138,12 @@ header .logo-port img {
     margin: 0 0 15px;
 }
 
+.content-wrap h3.menu_Style {
+    display: block;
+}
+
 .content-wrap ul {
-    margin: 0 0 0 20px;
+    margin: 0 0 20px 20px;
 }
 
 .content-wrap ul li {
@@ -147,7 +151,29 @@ header .logo-port img {
     list-style-type: square;
     margin: 0;
 }
-
+.content-wrap p {
+  display: inline-block;
+  width: 130px;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.content-wrap p a {
+    color: #333;
+    background-color: #fff;
+    font: 300 16px/100% "Roboto", sans-serif;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px 0;
+    display: inline-block;
+    border-radius: 5px;
+    width: 130px;
+    text-align: center;
+}
+.content-wrap p a:hover, .content-wrap p a.active {
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #333;
+}
 .mobile-mockup-wrap {
     height: auto;
     left: 50%;

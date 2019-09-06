@@ -23,7 +23,8 @@ _Mobile menu submenu class.This class should be there in each submenu UL's_(Defa
 _Mobile menu Hamburger Id._(Default : sm_menu_ham)
 *  **wrapperClass**<br/>
 _Mobile menu wrapper element class._(Default : sm_menu_outer)
-
+*  **menuStyle**<br/>
+_2 Menu Styles : Slide & Accordion._(Default : slide)
 ## Callbacks
 
 *  **onMenuLoad**<br/>
@@ -89,6 +90,8 @@ $(document).ready(function() {
     "wrapperClass" : "sm_menu_outer", 
     //Submenu Class
     "submenuClass" : "submenu",
+    //Menu Style
+    "menuStyle" : "slide",
     // Callback - Menu loaded 
     "onMenuLoad" : function(menu) {
        console.log("menu loaded")

@@ -1,5 +1,5 @@
 /*
-JQuery Simple MobileMenu
+JQuery Simple MobileMenu Slide
 https://github.com/Position2/jQuery-Simple-MobileMenu
 */
 /*Main style*/
@@ -56,7 +56,7 @@ body.mmactive {
   width: 100%;
   z-index: 999;
 }
-.sm_menu_outer.slide .mobile_menu li.active>.submenu {
+.sm_menu_outer.slide .mobile_menu li.active > .submenu {
   right: 0;
 }
 .sm_menu_outer .mobile_menu li {
@@ -65,7 +65,7 @@ body.mmactive {
   border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #2a2a2a 20%, #2a2a2a 50%, #2a2a2a 80%, rgba(0, 0, 0, 0) 100%) 0 0 1 0;
   color: #ffffff;
 }
-.sm_menu_outer.slide .mobile_menu li.hasChild>a {
+.sm_menu_outer.slide .mobile_menu li.hasChild > a {
   background: url("../images/next.png") no-repeat scroll 95% center / 5% auto;
 }
 /*Hamburger Animation */
@@ -134,38 +134,9 @@ body.mmactive {
   top: 18px;
   width: 0;
 }
-.sm_menu_outer.accordion .mobile_menu .submenu, .sm_menu_outer.accordion .mobile_menu li.hasChild ul.submenu {
-  display: none;
-}
-.sm_menu_outer.accordion .mobile_menu .hasChild > .submenu li {
-  padding-left: 20px;
-}
-.sm_menu_outer.accordion .mobile_menu li.active > .submenu {
-  right: auto;
-}
-.sm_menu_outer.accordion .mobile_menu li.hasChild > a {
-  position: relative;
-}
-.sm_menu_outer.accordion .mobile_menu li.hasChild>a::before {
-  position: absolute;
-  content: '';
-  background: url("../images/next.png") no-repeat scroll 50% center / 60% auto;
-  right: 0;
-  top: 20px;
-  width: 40px;
-  height: 25px;
-  transition: all 0.19s ease;
-}
-.sm_menu_outer.accordion .mobile_menu li.hasChild.active>a::before {
-  transform: rotate(89deg);
-  transition: all 0.19s ease;
-}
 @media (min-width: 1024px) {
   #sm_menu_ham,
   .sm_menu_outer {
     display: none;
   }
-}
-.sm_menu_outer.accordion li {
-  display: block;
 }

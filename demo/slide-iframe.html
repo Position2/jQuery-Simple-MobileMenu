@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <title>Mobile Menu - jQuery Plugin</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../dist/styles/jquery-simple-mobilemenu.css">
+    <link rel="stylesheet" href="../dist/styles/jquery-simple-mobilemenu-slide.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet"> 
-    <script src="jquery-2.2.4.min.js"></script>
-    <script src="../dist/jquery-simple-mobilemenu.min.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="../dist/jquery-simple-mobilemenu.js"></script>
 </head>
 
 <body>
@@ -29,7 +29,13 @@
                             <a href="#testing2-2-2.com">Chapter 2.2</a>
                             <ul class="submenu">
                                 <li><a href="#testing2-2-2-1.com">Chapter 2.2.1</a></li>
-                                <li><a href="#testing2-2-2-2.com">Chapter 2.2.2</a></li>
+                                <li><a href="#testing2-2-2-2.com">Chapter 2.2.2</a>
+                                    <ul class="submenu">
+                                        <li><a href="#testing2-2-2-1.com">Chapter 2.2.2.1</a></li>
+                                        <li><a href="#testing2-2-2-2.com">Chapter 2.2.2.2</a></li>
+                                        <li><a href="#testing2-2-2-3.com">Chapter 2.2.2.3</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#testing2-2-2-3.com">Chapter 2.2.1</a></li>
                             </ul>
                         </li>
@@ -59,6 +65,15 @@
         <li> <a href="#testing1.com">AMERICAN LIT</a> </li>
         <li> <a href="#testing1.com">SPANISH TUESDAYS</a> </li>
         <li> <a href="#testing1.com">THE BLOBE</a> </li>
+        <li>
+            <a href="#testing4.com">SUSPENSE</a>
+            <ul class="submenu">
+                <li><a href="">Chapter 1</a></li>
+                <li><a href="">Chapter 2</a></li>
+                <li><a href="">Chapter 3</a></li>
+            </ul>
+        </li>
+        <li> <a href="#testing1.com">THE BLOBE</a> </li>
     </ul>
     <div class="lorem-content">
         <h1>The Thief</h1>
@@ -80,7 +95,8 @@
             },
             onMenuToggle: function(menu, opened) {
                 console.log(opened)
-            }
+            },
+            "menuStyle": "slide"
         });
     })
     </script>
