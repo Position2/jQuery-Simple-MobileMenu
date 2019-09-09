@@ -8,7 +8,7 @@ Here the steps to configure...
 
 **Step 2 \:** Download and link to the Jquery simpleMobileMenu plugin
 
-**Step 3 \:** Fire the jQuery inlinePopup Plugin 
+**Step 3 \:** Fire the jQuery simpleMobileMenu Plugin 
 ```js
 $(document).ready(function(){
   $(".mobile_menu").simpleMobileMenu()
